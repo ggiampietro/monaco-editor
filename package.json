@@ -55,7 +55,7 @@
 		"url": "https://github.com/microsoft/monaco-editor"
 	},
 	"devDependencies": {
-		"@shikijs/core": "^3.0.0",
+		"@shikijs/core": "^4.0.0",
 		"@playwright/test": "^1.56.1",
 		"@rollup/plugin-alias": "^5.1.1",
 		"@rollup/plugin-node-resolve": "^16.0.2",
