@@ -43,6 +43,10 @@
 			"import": "./esm/vs/index.js",
 			"require": "./min/vs/index.js"
 		},
+		"./shiki": {
+			"types": "./esm/vs/shiki/index.d.ts",
+			"import": "./esm/vs/shiki/index.js"
+		},
 		"./*.js": "./esm/vs/*.js",
 		"./*": "./esm/vs/*.js"
 	},
@@ -51,6 +55,7 @@
 		"url": "https://github.com/microsoft/monaco-editor"
 	},
 	"devDependencies": {
+		"@shikijs/core": "^3.0.0",
 		"@playwright/test": "^1.56.1",
 		"@rollup/plugin-alias": "^5.1.1",
 		"@rollup/plugin-node-resolve": "^16.0.2",
