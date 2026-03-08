@@ -1,6 +1,6 @@
 /*! based on https://github.com/shikijs/shiki/blob/main/packages/monaco/src/index.ts */
 
-import type { ShikiPrimitive, ThemeRegistrationResolved } from '@shikijs/core';
+import type { ShikiPrimitive, ThemeRegistrationResolved } from '@shikijs/types';
 import type { StateStack } from '@shikijs/core/textmate';
 import { EncodedTokenMetadata, INITIAL } from '@shikijs/core/textmate';
 import type * as monacoNs from 'monaco-editor-core';
