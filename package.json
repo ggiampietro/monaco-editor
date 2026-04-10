@@ -32,7 +32,8 @@
 		"build-all": "npm run build-lsp && npm run build-monaco-editor && npm run package-for-smoketest",
 		"build": "npm run build-lsp && npm run build-monaco-editor",
 		"build-monaco-editor": "ts-node ./build/build-monaco-editor",
-		"build-lsp": "cd monaco-lsp-client && npm install && npm run build"
+		"build-lsp": "cd monaco-lsp-client && npm install && npm run build",
+		"build-release-artifact": "node ./build/release-fork-package.mjs"
 	},
 	"typings": "./esm/vs/editor/editor.main.d.ts",
 	"main": "./min/vs/editor/editor.main.js",
